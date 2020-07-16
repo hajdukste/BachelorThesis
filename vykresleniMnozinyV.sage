@@ -2,22 +2,22 @@
 (M, A) = (matrix(QQbar, [[-1, -1], [1, -1]]), [vector([0, 0]),vector([1,0])])
 
 # Obrazek 2: Modifikovany Penneyho system
-# (M, A) = (matrix(QQbar, [[1, 1], [-1, 1]]), [vector([0, 0]),vector([1,0])])
+#(M, A) = (matrix(QQbar, [[1, 1], [-1, 1]]), [vector([0, 0]),vector([1,0])])
 
 # Obrazek 3: Penneyho system s redundantni abecedou
-# (M, A) = (matrix(QQbar, [[-1, -1], [1, -1]]), [vector([0, 0]),vector([1,0]),vector([0, 1]), vector([-1, 0]), vector([0, -1])])
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -1]]), [vector([0, 0]),vector([1,0]),vector([0, 1]), vector([-1, 0]), vector([0, -1])])
 
 # Obrazek 4: Modifikovany Penneyho system s redundantni abecedou
-# (matrix(QQbar, [[1, 1], [-1, 1]]), [vector([0, 0]),vector([1,0]),vector([0, 1]), vector([-1, 0]), vector([0, -1])])
+#(M, A) = (matrix(QQbar, [[1, 1], [-1, 1]]), [vector([0, 0]),vector([1,0]),vector([0, 1]), vector([-1, 0]), vector([0, -1])])
 
 # Obrazek 5: Eisensteinuv system
-# (M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([2, 0])])
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([2, 0])])
 
 # Obrazek 6: Eisensteinuv system se symetrickou abecedou
-# (M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0])])
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0])])
 
 # Obrazek 7: Eisensteinuv system se redundantni abecedou
-# (M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0]), vector([0, 1]), vector([0, -1]), vector([1, 1]), vector([-1, -1])])
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0]), vector([0, 1]), vector([0, -1]), vector([1, 1]), vector([-1, -1])])
 
 
 parametr1 = 19000000
