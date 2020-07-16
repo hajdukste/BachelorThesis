@@ -16,7 +16,7 @@
 # Obrazek 6: Eisensteinuv system se symetrickou abecedou
 # (M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0])])
 
-# Obrazek 7: Eisensteinuv system se symetrickou abecedou
+# Obrazek 7: Eisensteinuv system se redundantni abecedou
 # (M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0]), vector([0, 1]), vector([0, -1]), vector([1, 1]), vector([-1, -1])])
 
 
