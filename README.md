@@ -30,3 +30,8 @@
 # Ctyrdimenzionalni system z [7] pro b = 2 a a=0
 #(M, A) = (matrix(QQbar, [[0, 0, 0, -2], [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]), [vector([0, 0, 0, 0]),vector([1, 0, 0, 0])])
 ```
+# Doplňující pokyny ke kódu vykresleniMnozinyV
+1. V tomto kódu musíme navíc k volení numeračního systému měnit také parametry vykreslování
+2. Parametr1 a Parametr2 ovlivňují kolik bodů bude vykresleno
+3. parametr point_size upravuje velikost teček s kterými se vykreslí obrázek
+4. Obrázky v bakalářské práci byly vykresleny s těmito parametry:
