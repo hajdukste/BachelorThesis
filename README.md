@@ -35,3 +35,12 @@
 2. Parametr1 a Parametr2 ovlivňují kolik bodů bude vykresleno
 3. parametr point_size upravuje velikost teček s kterými se vykreslí obrázek
 4. Obrázky v bakalářské práci byly vykresleny s těmito parametry:
+|                                                     | parametr1 | parametr2 | point_size |
+|-----------------------------------------------------|-----------|-----------|------------|
+| Penneyho system                                     | 19000000  | 16        | 1          |
+| Modifikovany Penneyho system                        | 19000000  | 16        | 1          |
+| Penneyho system s redundantni abecedou              | 19000000  | 16        | 24         |
+| Modifikovany Penneyho system s redundantni abecedou | 19000000  | 16        | 24         |
+| Eisensteinuv system                                 | 19000000  | 10        | 1          |
+| Eisensteinuv system se symetrickou abecedou         | 19000000  | 10        | 1          |
+| Eisensteinuv system se redundantni abecedou         | 10000000  | 10        | 4          |
