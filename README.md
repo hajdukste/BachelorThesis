@@ -4,9 +4,9 @@
 3. Otevřene stránku https://sagecell.sagemath.org/, kde se nachází online překladač pro zdrojové kódy SageMath
 4. Vložíme obsah schránky do textového pole na stránce a klikneme na tlačítko Evaluate
 5. V poli pod kódem se objeví výsledek
-6. Pro volbu jiného numeračního systému je potřeba se dostat na začátek kódu a "zapoznámkovat" řádek, kde je používaný numerační systém, a "odpoznámkovat" jiný numerační systém
+6. Pro volbu jiného numeračního systému je potřeba se dostat na začátek kódu(řádek 1 až 20) a "zapoznámkovat" řádek, kde je používaný numerační systém, a "odpoznámkovat" jiný numerační systém
 7. Řádek se "zapoznámkovává" vložením symbolu # na začátek řádku, "odpoznámkovává" se odstraněním tohoto symbolu
-8. Současně může být odpoznámkován pouze jeden numerační systém!
+8. Současně může být odpoznámkován pouze jeden numerační systém! Poznamenejme, že názvy systémů se neodpoznámkovávají
 9. Pokud bychom chtěli z výchozí volby zvolit Modifikovany Penneyho system, začátek kódu by měl vypadat takto
 ```console
 # Penneyho system
@@ -31,10 +31,11 @@
 #(M, A) = (matrix(QQbar, [[0, 0, 0, -2], [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]), [vector([0, 0, 0, 0]),vector([1, 0, 0, 0])])
 ```
 # Doplňující pokyny ke kódu vykresleniMnozinyV
-1. V tomto kódu musíme navíc k volení numeračního systému měnit také parametry vykreslování
+1. V tomto kódu musíme navíc k volení numeračního systému měnit také parametry vykreslování, ty se nachází na řádku 23 až 25
 2. Parametr1 a Parametr2 ovlivňují kolik bodů bude vykresleno
 3. parametr point_size upravuje velikost teček s kterými se vykreslí obrázek
 4. Obrázky v bakalářské práci byly vykresleny s těmito parametry:
+
 |                                                     | parametr1 | parametr2 | point_size |
 |-----------------------------------------------------|-----------|-----------|------------|
 | Penneyho system                                     | 19000000  | 16        | 1          |
