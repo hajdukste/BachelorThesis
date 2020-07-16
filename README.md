@@ -4,8 +4,10 @@
 3. Otevřene stránku https://sagecell.sagemath.org/, kde se nachází online překladač pro zdrojové kódy SageMath
 4. Vložíme obsah schránky do textového pole na stránce a klikneme na tlačítko Evaluate
 5. V poli pod kódem se objeví výsledek
-6. Pokud chcete zvolit jiný numerační systém, je potřeba v 1. textovém poli, kde je vložen kód, se dostat na začátek kódu
-7. je potřeba zapoznámkovat řádek, kde je používaný numerační systém, a odpoznámkovat jiný numerační systém
+6. Pro volbu jiného numeračního systému je potřeba se dostat na začátek kódu a "zapoznámkovat" řádek, kde je používaný numerační systém, a "odpoznámkovat" jiný numerační systém
+7. Řádek se "zapoznámkovává" vložením symbolu # na začátek řádku, "odpoznámkovává" se odstraněním tohoto symbolu
+8. Současně může být odpoznámkován pouze jeden numerační systém!
+9. Pokud bychom chtěli z výchozí volby zvolit Modifikovany Penneyho system, začátek kódu by měl vypadat takto
 ```console
 # Penneyho system
 #(M, A) = (matrix(QQbar, [[-1, -1], [1, -1]]), [vector([0, 0]),vector([1,0])])
