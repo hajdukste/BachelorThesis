@@ -53,6 +53,6 @@ for i in range(50):
             break
     if(len(list) > parametr1):
         break
-print(len(list))
+print("Drawing has started")
 show(points(list, pointsize = point_size), figsize=8, aspect_ratio=1)
         
