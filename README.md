@@ -1,27 +1,30 @@
 # Pokyny ke spuštění zdrojového kódu SageMath
-1. Nejprve stáhneme jeden ze dvou zdrojových kódů, a to kliknutím pravým tlačítkem na následující odkaz a zvolením možnosti "Uložit jako..." [testovaniSystemu.sage](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/testovaniSystemu.sage), [vykresleniMnozinyV.sage](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/vykresleniMnozinyV.sage)
-
-2. Dále je potřeba stáhnout instalační soubor pro program SageMath:
-
-   - Jsou dvě možnosti, buď klikneme přímo na odkaz [SageMath-9.0-Installer-v0.6.0.exe](https://github.com/sagemath/sage-windows/releases/download/0.6.0-9.0/SageMath-9.0-Installer-v0.6.0.exe), nebo instalační soubor nalezneme na oficiálních stránkách [https://www.sagemath.org/download.html](https://www.sagemath.org/download.html)
-[https://github.com/sagemath/sage-windows/releases/](https://github.com/sagemath/sage-windows/releases/)
-
-3. Následně spustíme instalační soubor, odsouhlasíme podmínky použití a pro jednodušší instalaci necháme výchozí pracovní složku. Měla by mít tvar
+1. Nejprve stáhneme jeden ze dvou zdrojových kódů v textovém tvaru, a to kliknutím pravým tlačítkem na následující odkaz a zvolením možnosti "Uložit jako..." [testovaniSystemu.txt](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/testovaniSystemu.txt), [vykresleniMnozinyV.txt](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/vykresleniMnozinyV.txt)
+2. Otevřeme stáhnutý soubor v poznámkovém bloku a označíme veškerý text, např. zkratkou Ctrl+A, a zkopírujeme ho zkratkou Ctrl+C
+3. Otevřene stránku https://sagecell.sagemath.org/, kde se nachází online překladač pro zdrojové kódy SageMath
+4. Vložíme obsah schránky do textového pole na stránce a klikneme na tlačítko Evaluate
+5. V poli pod kódem se objeví výsledek
+6. Pokud chcete zvolit jiný numerační systém, je potřeba v 1. textovém poli, kde je vložen kód, se dostat na začátek kódu
+7. je potřeba zapoznámkovat řádek, kde je používaný numerační systém, a odpoznámkovat jiný numerační systém
 ```console
-load("C\Users\JmenoUzivatele")
+# Penneyho system
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -1]]), [vector([0, 0]),vector([1,0])])
+
+# Modifikovany Penneyho system
+(M, A) = (matrix(QQbar, [[1, 1], [-1, 1]]), [vector([0, 0]),vector([1,0])])
+
+# Pozicni system jakozto maticovy system, kde beta = -2 a A = {0, 1}
+#(M, A) = (matrix(QQbar, [[-2]]), [vector(QQ, [0]), vector(QQ, [1])])
+
+# Eisensteinuv system
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([2, 0])])
+
+# Eisensteinuv system se symetrickou abecedou
+#(M, A) = (matrix(QQbar, [[-1, -1], [1, -2]]), [vector([0, 0]), vector([1, 0]), vector([-1, 0])])
+
+# Tridimenzionalni system z [7] s a=0 a abecedou obsahujici vektor (1,0,0)
+#(M, A) = (matrix(QQbar, [[0, 0, -2], [1, 0, 0], [0, 1, 0]]), [vector([0, 0, 0]),vector([1, 0, 0])])
+
+# Ctyrdimenzionalni system z [7] pro b = 2 a a=0
+#(M, A) = (matrix(QQbar, [[0, 0, 0, -2], [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]]), [vector([0, 0, 0, 0]),vector([1, 0, 0, 0])])
 ```
-   Poté necháme program nainstalovat, instalace trvá přibližně půl hodiny.
-
-4. Po úspěšné instalaci se na ploše vytvoří zástupce "SageMath 9.x", který následně spustíme. Poznamenejme, že se vytvoří také zástupce "SageMath 9.x Notebook" a "SageMath 9.x Shell". My budeme pracovat s programem bez přípony.
-
-5. Po spuštění programu se objeví příkazová řádka přes kterou můžeme spouštět zdrojové kódy s příponou sage, a to příkazem
-
-```console
-load("Cesta k souboru.")
-```
-kde za cestu k souboru dosadíme cestu ke stáhnutému .sage souboru. Pokud jsme uložili soubor do Dokumentů, příkaz vypadá takto
-
-```console
-load("Documents\\testovaniSystemu.sage")
-```
-6. 
