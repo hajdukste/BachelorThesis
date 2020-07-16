@@ -46,4 +46,4 @@
 | Eisensteinuv system se symetrickou abecedou         | 19000000  | 10        | 1          | 45 sekund               |
 | Eisensteinuv system se redundantni abecedou         | 10000000  | 10        | 4          |                         |
 
-5. Poznamenejme, že čísla, které se při běhu programu vypisují slouží jako výpis počtu iterací bodů, a program ukončí iterování, pokud první vypisované číslo překročí hodnotu parametru1 nebo když druhé číslo překročí hodnotu parametru2
+5. Poznamenejme, že čísla, které se při běhu programu vypisují, slouží jako počítadlo iterací bodů, a program ukončí iterování, pokud první vypisované číslo překročí hodnotu parametru1 nebo když druhé číslo překročí hodnotu parametru2
