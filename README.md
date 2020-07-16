@@ -22,6 +22,6 @@ load("Cesta k souboru.")
 kde za cestu k souboru dosadíme cestu ke stáhnutému .sage souboru. Pokud jsme uložili soubor do Dokumentů, příkaz vypadá takto
 
 ```console
-load("Dokumenty\\testovaniSystemu.sage")
+load("Documents\\testovaniSystemu.sage")
 ```
 6. 
