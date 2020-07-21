@@ -12,7 +12,7 @@ Projekt obsahuje dva programy
 1. Pro volbu jiného numeračního systému je potřeba se dostat na začátek kódu(řádek 1 až 20) a "zapoznámkovat" řádek, kde je používaný numerační systém, a "odpoznámkovat" jiný numerační systém
 2. Řádek se "zapoznámkovává" vložením symbolu # na začátek řádku, "odpoznámkovává" se odstraněním tohoto symbolu
 3. Současně může být odpoznámkován pouze jeden numerační systém! Poznamenejme, že názvy systémů se neodpoznámkovávají
-4. Pokud bychom chtěli z výchozí volby zvolit Modifikovany Penneyho system, začátek kódu by měl vypadat takto
+příklad: Pokud bychom chtěli z výchozí volby zvolit Modifikovany Penneyho system, začátek kódu by měl vypadat takto
 ```console
 # Penneyho system
 #(M, A) = (matrix(QQbar, [[-1, -1], [1, -1]]), [vector([0, 0]),vector([1,0])])
