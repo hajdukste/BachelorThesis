@@ -4,9 +4,9 @@ Projekt obsahuje dva programy
 - Druhý program vykresluje množinu V pro vstupní numerační systém. Vykreslený obrázek se objeví v konzoli.
 # Pokyny ke spuštění zdrojového kódu SageMath
 1. Nejprve stáhneme jeden ze dvou zdrojových kódů v textovém tvaru, a to kliknutím pravým tlačítkem na následující odkaz a zvolením možnosti "Uložit odkaz jako..." [testovaniSystemu.txt](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/testovaniSystemu.txt), [vykresleniMnozinyV.txt](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/vykresleniMnozinyV.txt)
-2. Otevřeme stáhnutý soubor v poznámkovém bloku a označíme veškerý text, např. zkratkou Ctrl+A, a zkopírujeme ho zkratkou Ctrl+C
+2. Otevřeme stáhnutý soubor v poznámkovém bloku a označíme veškerý text, např. zkratkou Ctrl+A, a zkopírujeme ho(Ctrl+C)
 3. Otevřene stránku https://sagecell.sagemath.org/, kde se nachází online překladač pro zdrojové kódy SageMath
-4. Vložíme obsah schránky do textového pole na stránce a klikneme na tlačítko Evaluate
+4. Vložíme obsah schránky(Ctrl+V) do textového pole na stránce a klikneme na tlačítko Evaluate
 5. V poli pod kódem se objeví výsledek
 ## Volba jiného numeračního systému
 1. Pro volbu jiného numeračního systému je potřeba se dostat na začátek kódu(řádek 1 až 20) a "zapoznámkovat" řádek, kde je používaný numerační systém, a "odpoznámkovat" jiný numerační systém
