@@ -1,6 +1,6 @@
 # Programy k bakalářské práci
-Projekt obsahuje dva programy
-- První program bere jako vstup maticový numerační systém a zhodnotí, zda reprezentuje množinu Z^d. Pokud ji nereprezentuje, vypíše během programu vektory, které nemají reprezentaci. Kroky programu jsou popsány v bakalářské práci. Nesplněné podmínky jsou hlášeny v konzoli a pokud nějaká nastane, program se ukončí.
+Tento projekt obsahuje dva programy:
+- První program bere jako vstup maticový numerační systém a rozhodne, zda tento systém reprezentuje množinu Z^d. Pokud ji nereprezentuje, vypíše během běhu programu vektory, které nemají reprezentaci. Kroky programu jsou popsány v bakalářské práci. Nesplněné podmínky jsou hlášeny v konzoli a pokud nějaká nastane, program se ukončí.
 - Druhý program vykresluje množinu V pro vstupní numerační systém. Vykreslený obrázek se objeví v konzoli.
 # Pokyny ke spuštění zdrojového kódu SageMath
 1. Nejprve stáhneme jeden ze dvou zdrojových kódů v textovém tvaru, a to kliknutím pravým tlačítkem na následující odkaz a zvolením možnosti "Uložit odkaz jako..." [testovaniSystemu.txt](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/testovaniSystemu.txt), [vykresleniMnozinyV.txt](https://raw.githubusercontent.com/StefanHajduk/BachelorThesis/master/vykresleniMnozinyV.txt)
